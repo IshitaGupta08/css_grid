@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100%;
+    width: 100%;
+}
+.container{
+    height: 100%;
+    width: 100%;
+    padding: 4rem;
+    background-color: rgb(57, 54, 54);
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(4,1fr);
+    gap: 0.4rem;
+    border: 2px solid white;
+    justify-items: center;
+}
+.item{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(94, 224, 224);
+    border: 5px solid white;
+    /* justify-self: stretch;
+    align-self: stretch; */
+    place-self: center;
+}
